@@ -1,0 +1,32 @@
+#root,html,body{
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: cursive;
+  background-color: #fff;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form{
+  border: 2px solid black;
+  width: 300px;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
+label,input,select{
+  margin: 10px;
+  padding: 6px;
+}
+
+button{
+  margin: 10px;
+}
